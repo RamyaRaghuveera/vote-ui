@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM registry.access.redhat.com/ubi8/python:latest as builder
+FROM registry.access.redhat.com/ubi8/python-39:latest as builder
 
 # Install our requirements.txt
 ADD requirements.txt /opt/app-root/src/requirements.txt
